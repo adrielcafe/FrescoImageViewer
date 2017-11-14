@@ -210,6 +210,10 @@ class ImageViewerView extends RelativeLayout
         return adapter.isScaled(pager.getCurrentItem());
     }
 
+    public MultiTouchViewPager getViewPager() {
+        return pager;
+    }
+
     public String getUrl() {
         return adapter.getUrl(pager.getCurrentItem());
     }
