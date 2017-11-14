@@ -64,6 +64,10 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
         }
     }
 
+    public ImageViewerView getViewer() {
+        return viewer;
+    }
+
     public String getUrl() {
         return viewer.getUrl();
     }
