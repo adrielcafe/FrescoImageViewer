@@ -33,7 +33,7 @@ import com.facebook.imagepipeline.request.ImageRequestBuilder;
 /*
  * Created by Alexander Krol (troy379) on 29.08.16.
  */
-class ImageViewerView extends RelativeLayout
+public class ImageViewerView extends RelativeLayout
         implements OnDismissListener, SwipeToDismissListener.OnViewMoveListener {
 
     private View backgroundView;
